@@ -1,5 +1,4 @@
 # default.custom.yaml
-
 patch:
   schema_list:
     - schema: double_pinyin_flypy
@@ -8,14 +7,14 @@ patch:
     good_old_caps_lock: true
     switch_key:
       Caps_Lock: noop
-      Control_L: commit_code # ergodox is using control l
-      Control_R: commit_code # caps lock mapping to control r
+      Control_L: noop
+      Control_R: noop
       Eisu_toggle: noop
       Shift_L: noop
       Shift_R: noop
   recognizer/patterns:
     email: ^[A-Za-z][-_.0-9A-Za-z]*@.*$
-    uppercase: '[A-Z][-_+.''0-9A-Za-z]*$'
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: ^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$
   switcher/caption: 〔切换〕
   style/font_face: "Sarasa Gothic CL"
@@ -54,8 +53,6 @@ patch:
     - accept: Control+bracketleft
       send: Escape
       when: composing
-    #- {accept: "Alt+v", send: Page_Up, when: composing}
-    #- {accept: "Control+v", send: Page_Down, when: composing}
     - accept: ISO_Left_Tab
       send: Page_Up
       when: composing
@@ -77,20 +74,3 @@ patch:
     - accept: period
       send: Page_Down
       when: has_menu
-    #- {accept: "Control+Shift+1", select: .next, when: always}
-    #- {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
-    - accept: Control+Shift+3
-      toggle: full_shape
-      when: always
-    - accept: Control+Shift+4
-      toggle: simplification
-      when: always
-
-#- {accept: "Control+Shift+5", toggle: extended_charset, when: always}
-#- {accept: "Control+Shift+exclam", select: .next, when: always}
-#- {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
-#- {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
-#- {accept: "Control+Shift+dollar", toggle: simplification, when: always}
-#- {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-#- {accept: "Shift+space", toggle: full_shape, when: always}
-# - {accept: "Control+period", toggle: ascii_punct, when: always}
