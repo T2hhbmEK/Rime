@@ -1,0 +1,5 @@
+patch:
+  style/cursor_type: insert
+  style/horizontal: true
+  style/inline_preedit: false
+  style/preedit_style: preview

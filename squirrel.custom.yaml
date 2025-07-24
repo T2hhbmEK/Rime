@@ -1,0 +1,112 @@
+patch:
+  app_options:
+    # gett app bundle id: osascript -e 'id of app "MacVim"'
+    org.vim.MacVim:
+      no_inline: true
+      vim_mode: true
+    uk.foon.Neovim:
+      no_inline: true
+      vim_mode: true
+    com.qvacua.VimR:
+      no_inline: true
+      vim_mode: true
+    com.ident.goneovim:
+      no_inline: true
+      vim_mode: true
+    com.neovide.neovide:
+      no_inline: true
+      vim_mode: true
+    com.googlecode.iterm2:
+      no_inline: true
+      vim_mode: false
+    com.apple.Terminal:
+      no_inline: true
+      vim_mode: false
+    #com.apple.iWork.Numbers:
+      #no_inline: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.jetbrains.intellij:
+      vim_mode: true
+    com.jetbrains.datagrip:
+      vim_mode: true
+    com.jetbrains.WebStorm:
+      vim_mode: true
+    # Obsidian
+    md.obsidian:
+      vim_mode: true
+    net.kovidgoyal.kitty:
+      vim_mode: true
+    # AntDraw in Edge
+    com.microsoft.edgemac.app.jndbnbljngolcchhjbajncidekccnlck:
+      no_inline: true
+    # AntDraw in Chrome
+    com.google.Chrome.app.jndbnbljngolcchhjbajncidekccnlck:
+      no_inline: true
+  style:
+    color_scheme: homepage
+    # color_scheme: jike
+    # color_scheme: psionics
+    #color_scheme: purity_of_form
+    # color_scheme: apathy
+    # color_scheme: mojave_dark
+    #color_scheme: clean_white
+    #color_scheme: native
+    #color_scheme: starcraft
+  preset_color_schemes:
+    apathy:
+      author: 'LIANG Hai '
+      back_color: 0xFFFFFF
+      border_height: 1
+      border_width: 1
+      candidate_format: '%c %@ '
+      comment_text_color: 0x999999
+      corner_radius: 4
+      font_face: PingFangSC-Regular,PingFangTC-Regular
+      font_point: 14
+      hilited_candidate_back_color: 0xFFF0E4
+      hilited_candidate_text_color: 0xEE6E00
+      # legacy mode
+      horizontal: true
+      candidate_list_layout: linear
+      inline_preedit: true
+      label_font_face: PingFangSC-Light,HanaMinA
+      label_font_point: 12
+      name: 冷漠 / Apathy
+      text_color: 0x424242
+    homepage:
+      author: alswl
+      back_color: 0x444444
+      border_height: 0
+      border_width: 0
+      candidate_format: '%c %@ '
+      comment_text_color: 0x999999
+      corner_radius: 5
+      font_face: PingFangSC-Medium,PingFangTC-Medium
+      font_point: 15
+      hilited_candidate_back_color: 0xD3BC00
+      hilited_candidate_text_color: 0xFFFFFF
+      # legacy mode
+      horizontal: true
+      candidate_list_layout: linear
+      inline_preedit: true
+      label_font_point: 14
+      name: 官网 / Homepage
+      text_color: 0xEEEEEE
+    jike:
+      name: 即刻黄
+      author: Ryekee
+      back_color: 0x11E4FF
+      border_height: 0
+      border_width: 0
+      candidate_format: '%c  %@ '
+      comment_text_color: 0x000000
+      font_face: PingFangSC-Medium,PingFangTC-Medium
+      hilited_candidate_back_color: 0xF4B95F
+      hilited_candidate_text_color: 0xFFFFFF
+      # legacy mode
+      horizontal: true
+      candidate_list_layout: linear
+      inline_preedit: true
+      label_font_point: 14
+      text_color: 0xFFFFFF
