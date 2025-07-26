@@ -23,7 +23,7 @@ patch:
       no_inline: true
       vim_mode: false
     #com.apple.iWork.Numbers:
-      #no_inline: true
+    #no_inline: true
     com.alfredapp.Alfred:
       ascii_mode: true
     com.jetbrains.intellij:
@@ -44,22 +44,22 @@ patch:
     com.google.Chrome.app.jndbnbljngolcchhjbajncidekccnlck:
       no_inline: true
   style:
-    color_scheme: homepage
+    # color_scheme: homepage
     # color_scheme: jike
     # color_scheme: psionics
     #color_scheme: purity_of_form
-    # color_scheme: apathy
+    color_scheme: apathy
     # color_scheme: mojave_dark
     #color_scheme: clean_white
     #color_scheme: native
     #color_scheme: starcraft
   preset_color_schemes:
     apathy:
-      author: 'LIANG Hai '
+      author: "LIANG Hai "
       back_color: 0xFFFFFF
       border_height: 1
       border_width: 1
-      candidate_format: '%c %@ '
+      candidate_format: "%c %@ "
       comment_text_color: 0x999999
       corner_radius: 4
       font_face: PingFangSC-Regular,PingFangTC-Regular
@@ -79,7 +79,7 @@ patch:
       back_color: 0x444444
       border_height: 0
       border_width: 0
-      candidate_format: '%c %@ '
+      candidate_format: "%c %@ "
       comment_text_color: 0x999999
       corner_radius: 5
       font_face: PingFangSC-Medium,PingFangTC-Medium
@@ -99,7 +99,7 @@ patch:
       back_color: 0x11E4FF
       border_height: 0
       border_width: 0
-      candidate_format: '%c  %@ '
+      candidate_format: "%c  %@ "
       comment_text_color: 0x000000
       font_face: PingFangSC-Medium,PingFangTC-Medium
       hilited_candidate_back_color: 0xF4B95F
